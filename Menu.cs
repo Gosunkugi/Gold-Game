@@ -25,7 +25,7 @@ public class Menu : Control
 
 		private void _on_StartButton_pressed()
 	{
-		 GetTree().ChangeScene("res://Shop.tscn");
+		 GetTree().ChangeScene("res://Map.tscn");
 	}
 
 	
