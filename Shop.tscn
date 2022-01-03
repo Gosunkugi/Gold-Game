@@ -46,6 +46,50 @@ margin_bottom = 218.0
 custom_fonts/font = ExtResource( 1 )
 text = "leave"
 
+[node name="NuggetLabel" type="Label" parent="."]
+margin_left = 19.0
+margin_top = 650.0
+margin_right = 296.0
+margin_bottom = 714.0
+custom_fonts/font = ExtResource( 1 )
+text = "nuggets="
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NuggetPtLabel" type="Label" parent="NuggetLabel"]
+margin_left = 293.0
+margin_top = -1.0
+margin_right = 377.0
+margin_bottom = 63.0
+custom_fonts/font = ExtResource( 1 )
+text = "10"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SurvivaLLabel" type="Label" parent="."]
+margin_left = 640.0
+margin_top = 647.0
+margin_right = 1156.0
+margin_bottom = 711.0
+custom_fonts/font = ExtResource( 1 )
+text = "survival points="
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SurvivalPtLabel" type="Label" parent="SurvivaLLabel"]
+margin_left = 530.0
+margin_top = -1.0
+margin_right = 614.0
+margin_bottom = 63.0
+custom_fonts/font = ExtResource( 1 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [connection signal="pressed" from="VBoxContainer/BuyButton" to="." method="_on_BuyButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/SellButton" to="." method="_on_SellButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/LeaveButton" to="." method="_on_LeaveButton_pressed"]
