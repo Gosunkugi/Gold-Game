@@ -47,21 +47,21 @@ custom_fonts/font = ExtResource( 1 )
 text = "leave"
 
 [node name="NuggetLabel" type="Label" parent="."]
-margin_left = 19.0
-margin_top = 650.0
-margin_right = 296.0
-margin_bottom = 714.0
+margin_left = 20.0
+margin_top = 652.0
+margin_right = 371.0
+margin_bottom = 716.0
 custom_fonts/font = ExtResource( 1 )
-text = "nuggets="
+text = "nuggets({)="
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="NuggetPtLabel" type="Label" parent="NuggetLabel"]
-margin_left = 293.0
-margin_top = -1.0
-margin_right = 377.0
-margin_bottom = 63.0
+margin_left = 367.0
+margin_top = 3.0
+margin_right = 451.0
+margin_bottom = 67.0
 custom_fonts/font = ExtResource( 1 )
 text = "10"
 __meta__ = {
@@ -86,6 +86,27 @@ margin_right = 614.0
 margin_bottom = 63.0
 custom_fonts/font = ExtResource( 1 )
 text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MoneyLabel" type="Label" parent="."]
+margin_left = 19.0
+margin_top = 589.0
+margin_right = 296.0
+margin_bottom = 653.0
+custom_fonts/font = ExtResource( 1 )
+text = "money= $"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DollarLabel" type="Label" parent="MoneyLabel"]
+margin_left = 278.0
+margin_right = 362.0
+margin_bottom = 64.0
+custom_fonts/font = ExtResource( 1 )
+text = "10"
 __meta__ = {
 "_edit_use_anchors_": false
 }
