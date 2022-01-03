@@ -1,3 +1,49 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource path="res://font/MapFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Shop.cs" type="Script" id=2]
+
+[node name="Shop" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 16.0
+margin_top = 40.0
+margin_right = 1258.0
+margin_bottom = 104.0
+custom_fonts/font = ExtResource( 1 )
+text = "howdy there, what would you like to do?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 986.0
+margin_top = 163.0
+margin_right = 1248.0
+margin_bottom = 381.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BuyButton" type="Button" parent="VBoxContainer"]
+margin_right = 262.0
+margin_bottom = 70.0
+custom_fonts/font = ExtResource( 1 )
+text = "buy"
+
+[node name="SellButton" type="Button" parent="VBoxContainer"]
+margin_top = 74.0
+margin_right = 262.0
+margin_bottom = 144.0
+custom_fonts/font = ExtResource( 1 )
+text = "sell"
+
+[node name="LeaveButton" type="Button" parent="VBoxContainer"]
+margin_top = 148.0
+margin_right = 262.0
+margin_bottom = 218.0
+custom_fonts/font = ExtResource( 1 )
+text = "leave"
+
+[connection signal="pressed" from="VBoxContainer/LeaveButton" to="." method="_on_LeaveButton_pressed"]
