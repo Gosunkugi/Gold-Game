@@ -1,0 +1,9 @@
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\bin\Debug\Klondike.dll
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\bin\Debug\Klondike.pdb
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\obj\Debug\Klondike.csproj.AssemblyReference.cache
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\obj\Debug\Klondike.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\obj\Debug\Klondike.AssemblyInfoInputs.cache
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\obj\Debug\Klondike.AssemblyInfo.cs
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\obj\Debug\Klondike.csproj.CoreCompileInputs.cache
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\obj\Debug\Klondike.dll
+C:\Users\ME\Documents\GitHub\Gold-Game\.mono\temp\obj\Debug\Klondike.pdb
