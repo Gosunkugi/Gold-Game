@@ -6,7 +6,7 @@
 [node name="Shop" type="Node2D"]
 script = ExtResource( 2 )
 
-[node name="Label" type="Label" parent="."]
+[node name="GreetingLabel" type="Label" parent="."]
 margin_left = 16.0
 margin_top = 40.0
 margin_right = 1258.0
@@ -46,4 +46,6 @@ margin_bottom = 218.0
 custom_fonts/font = ExtResource( 1 )
 text = "leave"
 
+[connection signal="pressed" from="VBoxContainer/BuyButton" to="." method="_on_BuyButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/SellButton" to="." method="_on_SellButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/LeaveButton" to="." method="_on_LeaveButton_pressed"]

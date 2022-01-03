@@ -1,5 +1,8 @@
 using Godot;
 using System;
+using Engine.Factories;
+
+
 
 public class Shop : Node2D
 {
@@ -18,11 +21,33 @@ public class Shop : Node2D
 //  {
 //      
 //  }
+
+	//BUY SHIT WITH MONEY
+	private void _on_BuyButton_pressed()
+	{
+		var greeting = this.GetNode<Label>("GreetingLabel");
+		greeting.Text = "what would you like to buy?";
+	}
+
+	//SELL NUGGETS FOR MONEY
+	private void _on_SellButton_pressed()
+	{
+		var greeting = this.GetNode<Label>("GreetingLabel");
+		greeting.Text = "what would you like to sell?";
+	}
+
+	//GO BACK TO MAP MENU
 	private void _on_LeaveButton_pressed()
 	{
 		GetTree().ChangeScene("res://Map.tscn");
 	}
 }
+
+
+
+
+
+
 
 
 
